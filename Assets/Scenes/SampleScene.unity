@@ -203,6 +203,7 @@ MonoBehaviour:
   isLeader: 0
   moveSpeed: 5
   follow: {fileID: 1866779395}
+  maxDistanceFollow: 1
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +280,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.40305576, y: -0.000000018396811, z: 0.000000008102208, w: 0.91517544}
+  m_LocalRotation: {x: 0.40305573, y: 0.00000002824356, z: -0.000000012438847, w: 0.91517544}
   m_LocalPosition: {x: 0, y: 19.55, z: -17.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -553,7 +554,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705333756}
-  m_LocalRotation: {x: 0.40305576, y: -0.000000018396811, z: 0.000000008102208, w: 0.91517544}
+  m_LocalRotation: {x: 0.40305573, y: 0.00000002824356, z: -0.000000012438847, w: 0.91517544}
   m_LocalPosition: {x: 0, y: 19.55, z: -17.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -940,3 +941,4 @@ MonoBehaviour:
   isLeader: 1
   moveSpeed: 5
   follow: {fileID: 0}
+  maxDistanceFollow: 1
