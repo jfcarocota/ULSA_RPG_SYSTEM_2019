@@ -8,7 +8,7 @@ public class NPC : MonoBehaviour
     [SerializeField]
     protected bool isPartner;
     [SerializeField]
-    protected bool isLeader;
+    private bool isLeader;
 
     [SerializeField, Range(0f, 10f)]
     protected float moveSpeed = 0f;
@@ -20,6 +20,12 @@ public class NPC : MonoBehaviour
 
     [SerializeField, Range(0f, 10f)]
     float maxDistanceFollow = 2f;
+
+    public bool IsLeader { get => isLeader;
+        set => isLeader = value; }
+
+    public Transform Follow { get => follow;
+        set => follow = value; }
 
     protected void Update()
     {

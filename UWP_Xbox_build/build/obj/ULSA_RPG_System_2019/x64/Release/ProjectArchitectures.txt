@@ -1,0 +1,1 @@
+C:\Users\jfcarocota\Documents\GitHub\ULSA_RPG_SYSTEM_2019\UWP_Xbox_build\ULSA_RPG_System_2019\ULSA_RPG_System_2019.vcxproj;x64

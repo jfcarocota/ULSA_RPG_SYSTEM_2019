@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  App.cpp
+  Main.cpp
+  UnityGenerated.cpp
+c:\users\jfcarocota\documents\github\ulsa_rpg_system_2019\uwp_xbox_build\ulsa_rpg_system_2019\app.cpp(26): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marcado como en desuso
+  c:\users\jfcarocota\documents\github\ulsa_rpg_system_2019\uwp_xbox_build\ulsa_rpg_system_2019\app.cpp(26): note: Mensaje: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+  Generando código
+  All 160 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  ULSA_RPG_System_2019.vcxproj -> C:\Users\jfcarocota\Documents\GitHub\ULSA_RPG_SYSTEM_2019\UWP_Xbox_build\build\bin\x64\Release\ULSA_RPG_System_2019.exe
+GENERATEPROJECTPRIFILE : warning PRI249: 0xdef00520 - Invalid qualifier: DLL-RESOURCES
+GENERATEPROJECTPRIFILE : warning PRI249: 0xdef00520 - Invalid qualifier: DLL-RESOURCES

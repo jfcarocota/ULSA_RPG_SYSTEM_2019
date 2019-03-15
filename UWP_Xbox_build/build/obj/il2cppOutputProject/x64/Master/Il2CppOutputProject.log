@@ -1,0 +1,11 @@
+﻿  Building GameAssembly.dll with MsvcWinRtToolChain
+  	Msvc Install Version: 15.0
+  	Msvc Install SDK Directory: C:\Program Files (x86)\Windows Kits\10
+  	Msvc Linker Path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX64\x64\link.exe
+  	Msvc Compiler Path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX64\x64\cl.exe
+  
+  	Output directory: C:\Users\jfcarocota\Documents\GitHub\ULSA_RPG_SYSTEM_2019\UWP_Xbox_build\build\bin\x64\Master
+  	Cache directory: C:\Users\jfcarocota\Documents\GitHub\ULSA_RPG_SYSTEM_2019\UWP_Xbox_build\build\obj\il2cppOutputProject\x64\Master
+  ObjectFiles: 561 of which compiled: 0
+  Total compilation time: 1116 milliseconds.
+  Cleaned up 1 object files.
