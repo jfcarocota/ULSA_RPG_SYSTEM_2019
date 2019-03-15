@@ -23,9 +23,17 @@ namespace Core.PartySystem
             NPC lastLeader = characters[0];
             lastLeader.IsLeader = false;
             characters.RemoveAt(0);
-            lastLeader.Follow = characters[0].transform;
+            //lastLeader.Follow = characters[0].transform;
             characters.Add(lastLeader);
             InitLeader();
+
+            for(int i = 0; i < characters.Count; i++)
+            {
+                if( i > 0)
+                {
+                    characters[i].Follow = characters[i - 1].transform;
+                }
+            }
         }
     }
 }
