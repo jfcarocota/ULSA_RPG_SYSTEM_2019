@@ -7,20 +7,19 @@ namespace Core.PartySystem
     [Serializable]
     public class PartySystem
     {
-        [SerializeField]
-        List<NPC> characters;
+        /*[SerializeField]
+        List<NPC> characters;*/
 
-        public List<NPC> Characters { get => characters;
-            set => characters = value; }
+        //public List<NPC> Characters { get => characters; set => characters = value; }
 
         public void InitLeader()
         {
-            characters[0].IsLeader = true;
+            //characters[0].IsLeader = true;
         }
 
         public void ChangeLeader()
         {
-            NPC lastLeader = characters[0];
+            /*NPC lastLeader = characters[0];
             lastLeader.IsLeader = false;
             characters.RemoveAt(0);
             //lastLeader.Follow = characters[0].transform;
@@ -33,7 +32,7 @@ namespace Core.PartySystem
                 {
                     characters[i].Follow = characters[i - 1].transform;
                 }
-            }
+            }*/
         }
     }
 }

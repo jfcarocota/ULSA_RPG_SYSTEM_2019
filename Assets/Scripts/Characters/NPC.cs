@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using Core.Movement.Sys3D;
 
-public class NPC : MonoBehaviour
+public class NPC : Character
 {
-    [SerializeField]
+    /*[SerializeField]
     protected bool isPartner;
     [SerializeField]
     private bool isLeader;
@@ -74,5 +74,10 @@ public class NPC : MonoBehaviour
         Movement3D.MoveFacing(transform, moveSpeed);
         anim.SetFloat("move", Mathf.Abs(Movement3D.Axis.magnitude));
         Debug.Log(Mathf.Abs(Movement3D.Axis.magnitude));
-    }
+    }*/
+
+    [SerializeField]
+    float moveSpeed;
+    [SerializeField]
+    Animator anim;
 }
