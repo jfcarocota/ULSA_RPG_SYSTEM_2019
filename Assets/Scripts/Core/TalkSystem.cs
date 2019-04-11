@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TalkSystem : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class TalkSystem : MonoBehaviour
 
     [SerializeField]
     GameObject talkSystemUI;
+    [SerializeField]
+    Text textMessage;
+    [SerializeField]
+    string message = "";
 
     private void Start()
     {
@@ -24,6 +29,7 @@ public class TalkSystem : MonoBehaviour
     public IEnumerator<WaitForSeconds> CheckConversation()
     {
         talkSystemUI.SetActive(true);
+        textMessage.text = message;
         while (true)
         {
             yield return new WaitForSeconds(3f);
@@ -34,17 +40,5 @@ public class TalkSystem : MonoBehaviour
             }*/
         }
     }
-
-/*#if UNITY_STANDALONE_WIN
-    public bool NextLine 
-    { 
-        get => Input.GetButtonDown("Submit"); 
-    }
-#elif UNITY_XBOXONE
-    public bool NextLine 
-    { 
-        get => Input.GetButtonDown("SubmitXbox"); 
-    }
-#endif*/
 }
 

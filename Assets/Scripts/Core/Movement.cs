@@ -140,4 +140,12 @@ namespace Core.Movement
             }
         }
     }
+
+    namespace ControlUtils
+    {
+        public class ControlUtils
+        {
+            public static bool Button_A { get => Input.GetButtonDown("Submit"); }
+        }
+    }
 }

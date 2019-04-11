@@ -193,8 +193,8 @@ GameObject:
   - component: {fileID: 285380151}
   - component: {fileID: 285380150}
   - component: {fileID: 285380149}
-  - component: {fileID: 285380153}
   - component: {fileID: 285380154}
+  - component: {fileID: 285380153}
   m_Layer: 0
   m_Name: Capsule (1)
   m_TagString: Untagged
@@ -284,14 +284,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 285380148}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c242988d0983ab4496ec2ba7db65856, type: 3}
+  m_Script: {fileID: 11500000, guid: 09c0753e02acbfe4892c20903db7b8c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: 
   lore: 
-  moveSpeed: 0
-  anim: {fileID: 0}
-  aud: {fileID: 0}
 --- !u!54 &285380154
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1018,6 +1015,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talkSystemUI: {fileID: 1278417638}
+  textMessage: {fileID: 1064334312}
+  message: "Hola mundo, estos es una conversaci\xF3n en un juego de rol."
 --- !u!1 &1278417638
 GameObject:
   m_ObjectHideFlags: 0

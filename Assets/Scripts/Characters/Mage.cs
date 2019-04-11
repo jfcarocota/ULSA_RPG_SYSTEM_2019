@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Core.Movement.ControlUtils;
 
 
 public class Mage : Player
@@ -28,9 +28,12 @@ public class Mage : Player
         Attack();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        Gamemanager.instance.InitConversation();
+        if (ControlUtils.Button_A)
+        {
+            Gamemanager.instance.InitConversation();
+        }
     }
 }
 
