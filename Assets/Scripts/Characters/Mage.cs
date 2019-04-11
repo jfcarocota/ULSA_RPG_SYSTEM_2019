@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 
 
@@ -25,6 +26,11 @@ public class Mage : Player
         DoSomething();
         Attack2(1, 0.1f);
         Attack();
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Gamemanager.instance.InitConversation();
     }
 }
 

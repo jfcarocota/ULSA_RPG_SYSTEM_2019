@@ -8,6 +8,5 @@ public class Character : MonoBehaviour
     protected string characterName;
     [TextArea(5, 50), SerializeField]
     protected string lore;
-
 }
 
